@@ -10,7 +10,7 @@ namespace CookBook.Models
     {
         public string Name { get; set; } = "";
         public List<string> Images { get; set; } = [];
-        public List<string> Ingredients { get; set; } = [];
+        public List<string> Ingredients { get; set; } = []; //search Ingredients
         public string Instructions { get; set; } = "";
     }
 }
