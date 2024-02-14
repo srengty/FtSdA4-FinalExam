@@ -24,7 +24,7 @@ namespace CookBook.Models
 
                 new Recipe{
                     Name="Trorb Dott",
-                    Ingredients=["Prahok", "roasted ground rice", "Pork", "Fish", "Vegetables"],
+                    Ingredients=["Pork", "Eggplant", "Garlic", "Oil", "Sleuk kteum"],
                     Images=["./Images/Korko.webp"],
                     Instructions="A Cambodian kroeung is a Cambodian herb and spice paste "},
                 ]}
