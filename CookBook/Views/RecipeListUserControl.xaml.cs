@@ -25,16 +25,6 @@ namespace CookBook.Views
         public RecipeListUserControl()
         {
             InitializeComponent();
-            if(DataContext != null)
-            {
-                if (DataContext is List<Recipe> recipes)
-                {
-                    foreach (var r in recipes)
-                    {
-                        MyGrid.Children.Add(new RecipeUserControl() { DataContext = r });
-                    }
-                }
-            }
         }
     }
 }
